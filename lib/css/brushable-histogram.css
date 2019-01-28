@@ -1,0 +1,98 @@
+.fdz-css-graph-histogram {
+  margin-top: 80px; }
+  .fdz-css-graph-histogram-bars rect {
+    fill: rgba(33, 150, 243, 0.4); }
+  .fdz-css-graph-histogram-bars rect:hover {
+    fill: rgba(100, 181, 246, 0.4); }
+  .fdz-css-graph-histogram-bars--tooltip {
+    background-color: #546e7a;
+    width: 100px;
+    padding: 0.3em 0.1em 0.3em 0.1em;
+    margin-left: -50px;
+    margin-top: -50px;
+    text-align: center;
+    z-index: 11;
+    font-family: 'Roboto Mono', Arial, sans-serif; }
+    .fdz-css-graph-histogram-bars--tooltip:after {
+      top: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      position: absolute;
+      pointer-events: none;
+      border-top-color: #546e7a;
+      border-width: 6px;
+      margin-left: -6px; }
+    .fdz-css-graph-histogram-bars--tooltip-value {
+      color: #90caf9;
+      font-size: 10px;
+      margin-bottom: 2px; }
+    .fdz-css-graph-histogram-bars--tooltip-dates {
+      color: #cfd8dc;
+      font-size: 8px; }
+  .fdz-css-graph-histogram-axis-x {
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 7pt; }
+    .fdz-css-graph-histogram-axis-x .domain {
+      stroke: #90a4ae; }
+    .fdz-css-graph-histogram-axis-x text {
+      fill: #90a4ae;
+      text-anchor: right; }
+    .fdz-css-graph-histogram-axis-x line {
+      stroke: #90a4ae; }
+  .fdz-css-graph-histogram-axis-y {
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 7pt; }
+    .fdz-css-graph-histogram-axis-y .domain {
+      stroke: transparent; }
+    .fdz-css-graph-histogram-axis-y text {
+      fill: #90a4ae;
+      text-anchor: start; }
+    .fdz-css-graph-histogram-axis-y line {
+      stroke: #90a4ae; }
+  .fdz-css-graph-histogram-zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all; }
+  .fdz-css-graph-histogram-brush rect.selection {
+    fill: #bbdefb;
+    fill-opacity: 0.3;
+    stroke-width: 0; }
+  .fdz-css-graph-histogram-brush rect.handle {
+    fill: #607d8b;
+    width: 5px;
+    stroke: #607d8b;
+    stroke-width: 1px; }
+  .fdz-css-graph-histogram-density__canvas {
+    position: relative; }
+  .fdz-css-graph-histogram-density__wrapper {
+    display: grid;
+    grid-template-columns: auto auto; }
+  .fdz-css-graph-histogram .fdz-css-cursor-pointer, .fdz-css-graph-histogram .fdz-css-graph-histogram-bars rect:hover, .fdz-css-graph-histogram-bars .fdz-css-graph-histogram rect:hover {
+    cursor: pointer; }
+  .fdz-css-graph-histogram .fdz-css-play-btn {
+    line-height: 1.5;
+    padding: 0 15px;
+    border-radius: 4px;
+    user-select: none;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    top: -4px;
+    background: transparent;
+    border-color: transparent;
+    color: #bfbfbf;
+    font-size: 18px; }
+    .fdz-css-graph-histogram .fdz-css-play-btn:hover, .fdz-css-graph-histogram .fdz-css-play-btn:active, .fdz-css-graph-histogram .fdz-css-play-btn:focus {
+      background: transparent;
+      border-color: transparent; }
+    .fdz-css-graph-histogram .fdz-css-play-btn:hover {
+      color: #40a9ff; }
+    .fdz-css-graph-histogram .fdz-css-play-btn .anticon {
+      transition: margin-left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      line-height: 1;
+      pointer-events: none;
+      vertical-align: -0.125em; }
+      .fdz-css-graph-histogram .fdz-css-play-btn .anticon svg {
+        line-height: 1; }

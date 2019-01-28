@@ -1,6 +1,3 @@
-# Ignoring "compiled" files from the github
-lib
-
 #ide specific folders
 .vscode
 .idea
